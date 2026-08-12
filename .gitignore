@@ -1,0 +1,15 @@
+# Data is downloaded, never committed
+data/*.sqlite
+data/questions.json
+
+# Results ARE committed - they're the evidence
+!results/
+
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.streamlit/
+.DS_Store
+results/

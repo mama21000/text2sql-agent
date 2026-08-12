@@ -1,0 +1,15 @@
+# mcp 2.0 renamed FastMCP and breaks langchain-mcp-adapters. Stay on 1.x.
+mcp>=1.24,<2.0
+langchain-mcp-adapters>=0.3.0
+
+langgraph>=0.2.0
+langchain-core>=0.3.0
+langchain-google-genai>=2.0.0
+
+# only needed if LLM_PROVIDER=groq
+langchain-groq>=0.2.0
+
+pydantic>=2.0
+python-dotenv>=1.0
+streamlit>=1.30
+pandas>=2.0
